@@ -1,6 +1,12 @@
-Superquarics in Python
+Superquadrics in Python
 ======================
+In mathematics, the superquadrics or super-quadrics (also superquadratics) 
+are a family of geometric shapes defined by formulas that resemble those of
+elipsoids and other quadrics, except that the squaring operations are 
+replaced by arbitrary powers. They can be seen as the three-dimensional 
+relatives of the Lamé curves ("superellipses") (from Wikipedia)
 
+Requires:
 You must have the Traits packages to run this code, as well as VTK . 
 These are available as packages in most modern OS's. 
 The easiest way to get all these pacakges is to install EPD (
@@ -10,4 +16,5 @@ purposes.
 To run the script simply issue:
 python <filename.py>
 
-from the terminal.
+from the terminal. If your hardware is old, you might try changing
+alpha and beta in line 34 and 35 so that you plot lesser no. of points.
