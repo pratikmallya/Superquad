@@ -1,0 +1,13 @@
+Superquarics in Python
+======================
+
+You must have the Traits packages to run this code, as well as VTK . 
+These are available as packages in most modern OS's. 
+The easiest way to get all these pacakges is to install EPD (
+Enthought Python Distribution) which is free for non-commercial
+purposes.
+
+To run the script simply issue:
+python <filename.py>
+
+from the terminal.
